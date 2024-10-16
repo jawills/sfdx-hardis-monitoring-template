@@ -1,1 +1,0 @@
-sf sfdmu run --sourceusername PROD_USERNAME --targetusername SB_USERNAME

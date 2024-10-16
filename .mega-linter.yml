@@ -1,0 +1,10 @@
+# Extend from shared sfdx-hardis Mega-Linter configuration :)
+EXTENDS:
+  - https://raw.githubusercontent.com/hardisgroupcom/sfdx-hardis/main/config/sfdx-hardis.mega-linter-config.yml
+
+DISABLE_LINTERS:
+  - REPOSITORY_GITLEAKS
+  - ACTION_ACTIONLINT
+  - SALESFORCE_LIGHTNING_FLOW_SCANNER
+
+SALESFORCE_SFDX_SCANNER_APEX_DISABLE_ERRORS_IF_LESS_THAN: 6 # ONLY THE RELEASE MANAGER CAN UPDATE THIS VALUE !

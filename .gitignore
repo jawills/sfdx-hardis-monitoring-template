@@ -78,3 +78,4 @@ test_session*
 hardis-report/
 megalinter-reports/
 config/user/
+.ssh/
